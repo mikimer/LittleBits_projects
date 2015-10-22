@@ -86,7 +86,7 @@ void loop() {
   // Arduino OUTPUT values go from 0 to 255 whereas LittleBits values go from 0 to 99.
   // Previously we scaled from Arduino inputs to LittleBits. 
   // Now we're scaling the outputs -- note that Arduino's input and output scales are different.
-  bottom_output_value = map(bottom_dimmer,  0, 99, 0, 255);       
+  bottom_output_value = map(bottom_output_value,  0, 99, 0, 255);       
     
   // Get output values out to the pins. Note when we're using analog write vs. digital write 
   // Any of the outputs could be digital or analog -- be deliberate about using digitalWrite vs. analogWrite!
