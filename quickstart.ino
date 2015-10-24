@@ -2,7 +2,9 @@
  * Mike's quickstart  sketch - a complete template to get the LittleBits Arduino working in seconds
  * There's a SANDBOX section below to play with the data 
  * so that you don't have to worry about setting up inputs & outputs. 
- * 
+ *
+ * Thge project is detailed here: http://littlebits.cc/projects/ready-to-go-template-code-for-arduino
+ *
  * by Mike Vladimer 
  * at Orange Silicon Valley http://www.orangesv.com/
  * October 2015
